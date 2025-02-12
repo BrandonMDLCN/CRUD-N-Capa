@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoCrud.Models\ProyectoCrud.Models.csproj" />
+    <ProjectReference Include="..\ProyectoCrud.Negocio\ProyectoCrud.Negocio.csproj" />
+  </ItemGroup>
+
 </Project>
