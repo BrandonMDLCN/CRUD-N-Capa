@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoCrud.Negocio.Service
 {
-    internal class ContactoService : IContactoService
+    public class ContactoService : IContactoService
     {
         private readonly IGenericRepository<Contacto> _contacRepo;
         public ContactoService(IGenericRepository<Contacto> contactRepo)

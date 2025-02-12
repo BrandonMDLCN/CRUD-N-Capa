@@ -11,7 +11,7 @@ public partial class Contacto
 
     public string? Telefono { get; set; }
 
-    public DateOnly? FechaNacimiento { get; set; }
+    public DateTime? FechaNacimiento { get; set; }
 
     public DateTime? FechaRegistro { get; set; }
 }
